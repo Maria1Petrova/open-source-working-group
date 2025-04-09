@@ -102,21 +102,26 @@ Support contact for CI:
 
 *Existing public CI*
 
+There is not public CI at the moment
+
 | Owner | Type | OS | Number | Active? | How to access logs |
 | --- | --- | --- | --- | --- | --- |
-| ? | ? | ? | ? | ? | ? |
+| Maria1Petrova | N/A | N/A | N/A | N/A | N/A |
 
 *Required Public CI Infrastruture Needed To Confidently Accept Contributions*
 
 | Instruction set architecture | Hardware Vendor | Processor Type | Operating System | 
 | --- | --- | --- | --- |
-| x86 | Intel | CPU | Ubuntu |
+| x86 | Intel | CPU | SLES/RHEL/Ubuntu |
+| Xe-HPC | Intel | GPU | SLES/RHEL/Ubuntu |
 | aarch64 | Arm | CPU | Ubuntu |
+
+Need a clustered environment: at least 2 connected nodes with 2 GPUs on the node at least 2 connected nodes with 2 2PUs on the node
 
 Software Versions
 
-CMake
-glibc
+CMake - minimun 3.20
+glibc 2.31
 ...
 
 oneMath

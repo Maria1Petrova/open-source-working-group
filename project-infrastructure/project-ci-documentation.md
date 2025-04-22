@@ -98,11 +98,12 @@ oneCCL
 ------
 
 Representative: Maria Petrova/Joel Rosenzweig
+
 Support contact for CI:
 
 *Existing public CI*
 
-There is not public CI at the moment
+There is no public CI at the moment
 
 | Owner | Type | OS | Number | Active? | How to access logs |
 | --- | --- | --- | --- | --- | --- |
@@ -115,8 +116,6 @@ There is not public CI at the moment
 | x86 | Intel | CPU | SLES/RHEL/Ubuntu | At lest 1 node with multiple CPU for scale up inference scenario and multiple connected nodes for scale out|
 | Xe-HPC | Intel | GPU | SLES/RHEL/Ubuntu | At least 2 connected nodes where each node contains at least 1 CPU and 2 GPU|
 | aarch64 | Arm | CPU | Ubuntu |
-
-Need a clustered environment: at least 2 connected nodes with 2 GPUs on the node at least 2 connected nodes with 2 2PUs on the node
 
 Software Versions
 

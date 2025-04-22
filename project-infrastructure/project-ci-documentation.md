@@ -97,7 +97,7 @@ glibc
 oneCCL 
 ------
 
-Representative: Maria Petrova
+Representative: Maria Petrova/Joel Rosenzweig
 Support contact for CI:
 
 *Existing public CI*
@@ -110,10 +110,10 @@ There is not public CI at the moment
 
 *Required Public CI Infrastruture Needed To Confidently Accept Contributions*
 
-| Instruction set architecture | Hardware Vendor | Processor Type | Operating System | 
-| --- | --- | --- | --- |
-| x86 | Intel | CPU | SLES/RHEL/Ubuntu |
-| Xe-HPC | Intel | GPU | SLES/RHEL/Ubuntu |
+| Instruction set architecture | Hardware Vendor | Processor Type | Operating System | Comment|
+| --- | --- | --- | --- | --- |
+| x86 | Intel | CPU | SLES/RHEL/Ubuntu | At lest 1 node with multiple CPU for scale up inference scenario and multiple connected nodes for scale out|
+| Xe-HPC | Intel | GPU | SLES/RHEL/Ubuntu | At least 2 connected nodes where each node contains at least 1 CPU and 2 GPU|
 | aarch64 | Arm | CPU | Ubuntu |
 
 Need a clustered environment: at least 2 connected nodes with 2 GPUs on the node at least 2 connected nodes with 2 2PUs on the node
@@ -122,7 +122,7 @@ Software Versions
 
 CMake - minimun 3.20
 glibc 2.31
-...
+
 
 oneMath
 -------
